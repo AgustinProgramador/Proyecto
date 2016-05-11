@@ -1,10 +1,9 @@
 body{
 	font-size: 14px
 	color:black;
+	background-image: url("imagenes/avion.jpg");
 }
 h1{
-	float:center;
-	
 	margin: 2% auto 2% auto;
 	font-size:50px;
 }
@@ -20,5 +19,36 @@ h1:hover{
 }
 .ima-avion{
 	margin-top: 20px;
-	
+}
+.titulo{
+	padding-left;
+}
+*{
+	padding:15px;
+	font-family: Arial;
+}
+
+
+
+@media (max-width: 767px){    /*clulares*/
+	.columna25{
+		width: 100%;
+	}
+	body{
+		background-image: url("imagenes/avion.jpg");
+	}
+	*{
+		padding:0px;
+		font-family: "Times New Roman", Georgia, Serif;
+	}
+}
+@media (min-width: 768x) and (max-width: 1000px){   /*tablet*/
+	body{
+		background-color: green;
+	}
+}
+@media (min-width: 1001) and (max-width: 4080px){     /*pc*/
+	body{
+		background-color: blue;
+	}
 }
